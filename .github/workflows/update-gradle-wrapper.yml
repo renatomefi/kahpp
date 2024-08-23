@@ -1,7 +1,7 @@
 name: update-gradle-wrapper
 on:
   schedule:
-    - cron: "0 0 * * *"
+    # - cron: "0 0 * * *"
 jobs:
   update-gradle-wrapper:
     runs-on: ubuntu-20.04
